@@ -1,3 +1,5 @@
+/*
+
 @font-face{
     font-family:"BareunDotumPro1";
     src:url('/fonts/BareunDotumPro1.eot');
@@ -7,17 +9,18 @@
 url('/fonts/BareunDotumPro1.svg#BareunDotumPro1') format('svg')
 src:local(¡Ø), url('/fonts/BareunDotumPro1.woff') format('woff');
 }
+*/
 
 * {
     margin: 0;
     padding: 0;
 }
-
+/*
 body {
     font-family:'BareunDotumPro1';
-    letter-spacing:0.5px;
-    line-height:150%;
-}
+}*/
+
+
 /* header */
 .header-bar {
     padding-top:80px;
@@ -184,7 +187,7 @@ nav li a:hover {
     margin-bottom:10px;
     color:black;
     font-size :90%;
-    width:70%;
+    width:100%;
 }
 .exp-section {
     padding-top:35px;
