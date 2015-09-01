@@ -1,23 +1,24 @@
 
 
-@font-face{
-    font-family:"BareunDotumPro1";
-    src:url('/fonts/BareunDotumPro1.eot');
-    src:url('/fonts/BareunDotumPro1.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/BareunDotumPro1.woff') format('woff'),
-    url('/fonts/BareunDotumPro1.ttf') format('truetype');
-url('/fonts/BareunDotumPro1.svg#micross') format('svg')
-src:local(¡Ø), url('/fonts/BareunDotumPro1.woff') format('woff');
+@font-face {
+    font-family: 'nanumbarungothicregular';
+    src: url('../fonts/nanumbarungothic-webfont.eot');
+    src: url('../fonts/nanumbarungothic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/nanumbarungothic-webfont.woff2') format('woff2'),
+    url('../fonts/nanumbarungothic-webfont.woff') format('woff'),
+    url('../fonts/nanumbarungothic-webfont.ttf') format('truetype'),
+    url('../fonts/nanumbarungothic-webfont.svg#nanumbarungothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
-
-
 * {
     margin: 0;
     padding: 0;
 }
 
-body {
-    font-family:'BareunDotumPro1';
+html, body {
+    font-family:'nanumbarungothicregular';
 }
 
 
@@ -105,8 +106,9 @@ nav li a:hover {
 .home{
     text-decoration:none;
     float:left;
-    padding-top:32px;
-    padding-left:32px;
+    padding-top:34px;
+    padding-left:40px;
+    margin-right:20px;
     font-weight:bold;
     font-size:130%;
 }
@@ -115,7 +117,7 @@ nav li a:hover {
 }
 
 .menu-margin {
-    margin-top:-20px;
+    margin-top:-10px;
     margin-left:20%;
 }
 
@@ -123,6 +125,8 @@ nav li a:hover {
 /* language skills */
 .skills {
     height:600px;
+    letter-spacing:0.1px;
+    line-height:130%;
 }
 
 .skill-img {
@@ -157,6 +161,8 @@ nav li a:hover {
     width:100%;
     height:580px;
     margin-bottom:80px;
+    letter-spacing:0.1px;
+    line-height:130%;
 }
 .exp-box {
     margin-left:100px;
@@ -174,7 +180,7 @@ nav li a:hover {
     margin-left:-142px;
 }
 .exp-content1 {
-    margin-top:-135px;
+    margin-top:-120px;
     margin-left:300px;
     color:#0eb4b6;
     font-size:110%;
@@ -196,7 +202,7 @@ nav li a:hover {
 
 /* location */
 #map_view {
-    margin:100px 23%;
+    margin:100px 25%;
     margin-top:10px;
 }
 .map-font {
@@ -269,7 +275,7 @@ nav li a:hover {
 
 /* subtitle */
 .subtitle {
-    padding-top:60px;
+    padding-top:85px;
     text-align:center;
     color:#5d5d5d;
     font-size:450%;
