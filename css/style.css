@@ -15,6 +15,8 @@ src:local(¡Ø), url('/fonts/BareunDotumPro1.woff') format('woff');
 
 body {
     font-family:'BareunDotumPro1';
+    letter-spacing:0.5px;
+    line-height:150%;
 }
 /* header */
 .header-bar {
@@ -178,10 +180,11 @@ nav li a:hover {
 .exp-content2 {
     padding-top:10px;
     margin-left:300px;
+    margin-right:300px;
     margin-bottom:10px;
     color:black;
     font-size :90%;
-    width:1000px;
+    width:70%;
 }
 .exp-section {
     padding-top:35px;
@@ -271,6 +274,7 @@ nav li a:hover {
 }
 
 .explain {
+    margin-top:30px;
     margin-bottom:80px;
     color:black;
     text-align:center;
