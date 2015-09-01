@@ -183,15 +183,15 @@ nav li a:hover {
 .exp-content2 {
     padding-top:10px;
     margin-left:300px;
-    margin-right:300px;
     margin-bottom:10px;
     color:black;
     font-size :90%;
-    width:100%;
+    width:80%;
 }
 .exp-section {
     padding-top:35px;
     height:150px;
+    padding-right:150px;
 }
 
 /* location */
@@ -277,7 +277,7 @@ nav li a:hover {
 }
 
 .explain {
-    margin-top:30px;
+    margin-top:10px;
     margin-bottom:80px;
     color:black;
     text-align:center;
