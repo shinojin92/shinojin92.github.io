@@ -1,13 +1,13 @@
 
 
 @font-face{
-    font-family:"micross";
-    src:url('/fonts/micross.eot');
-    src:url('/fonts/micross.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/micross.woff') format('woff'),
-    url('/fonts/micross.ttf') format('truetype');
-url('/fonts/micross.svg#micross') format('svg')
-src:local(¡Ø), url('/fonts/micross.woff') format('woff');
+    font-family:"BareunDotumPro1";
+    src:url('/fonts/BareunDotumPro1.eot');
+    src:url('/fonts/BareunDotumPro1.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/BareunDotumPro1.woff') format('woff'),
+    url('/fonts/BareunDotumPro1.ttf') format('truetype');
+url('/fonts/BareunDotumPro1.svg#micross') format('svg')
+src:local(¡Ø), url('/fonts/BareunDotumPro1.woff') format('woff');
 }
 
 
@@ -17,7 +17,7 @@ src:local(¡Ø), url('/fonts/micross.woff') format('woff');
 }
 
 body {
-    font-family:'micross';
+    font-family:'BareunDotumPro1';
 }
 
 
