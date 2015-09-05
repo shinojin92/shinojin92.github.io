@@ -81,11 +81,8 @@ ul {
     background-color: white;
     border:none;
 }
-.navbar-inverse .home {
-    text-decoration:none;
-    color:red;
-    padding-left:40px;
-    margin-right:20px;
+.navbar-default .navbar-brand {
+    color: red;
     font-weight:bold;
     font-size:130%
 }
