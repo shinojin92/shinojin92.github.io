@@ -47,7 +47,7 @@ html, body {
 }
 .my-info
 {
-    padding:0 auto;
+    margin:0 auto;
     padding-top:60px;
     padding-bottom:70px;
 
@@ -119,8 +119,8 @@ nav li a:hover {
 }
 
 .menu-margin {
-    margin:0 auto;
     margin-top:-10px;
+    margin-left:20%;
 }
 
 
