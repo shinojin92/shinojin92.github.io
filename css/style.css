@@ -295,3 +295,19 @@ nav li a:hover {
     font-weight:bold;
     font-size:90%;
 }
+
+
+
+/* portfolio */
+
+.portfolio {
+    margin:10px;
+    width:100%;
+    height:100%;
+}
+.portfolio_link {
+    color:#bf0202;
+}
+.portfolio_link:hover {
+    color:#c8c8c8;
+}
