@@ -46,9 +46,10 @@ html, body {
     width:200px;
 }
 .my-info {
-    padding-top:80px;
+    padding:0 auto;
+    padding-top:60px;
     padding-bottom:70px;
-    margin:0 auto;
+
 }
 .myself-font {
     color:white;
@@ -117,8 +118,8 @@ nav li a:hover {
 }
 
 .menu-margin {
+    margin:0 auto;
     margin-top:-10px;
-    margin-left:20%;
 }
 
 
