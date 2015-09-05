@@ -30,6 +30,8 @@ html, body {
     background-image:url('../img/wood.jpg');
     margin-bottom:80px;
     text-align:center;
+    display: table-cell;
+    vertical-align: middle;
 }
 .shadow {
     margin-top:-30px;
@@ -38,12 +40,9 @@ html, body {
     background-color: #0f0b07;
     opacity:0.8;
 }
-.header-margin {
-    margin: 0 auto;
-    text-align:center;
-}
 .my-photo {
     float:left;
+    margin:0 auto; display:block;
     margin-top:45px;
     margin-right:50px;
     height:200px;
