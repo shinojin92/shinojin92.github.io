@@ -82,10 +82,23 @@ ul {
     list-style:none;
     margin-right:30px;
 }
-
-nav {
+.navbar-default {
     background-color: white;
     height:80px;
+}
+.navbar-default.navbar-brand {
+    text-decoration:none;
+ /*   float:left;*/
+    color:red;
+    /*padding-top:34px;*/
+    padding-left:40px;
+    margin-right:20px;
+    font-weight:bold;
+    font-size:130%;
+}
+.navbar-default.navbar-brand:hover,
+.navbar-default.navbar-brand:focus {
+    color:black;
 }
 nav a {
     text-decoration: none;
