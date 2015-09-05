@@ -89,25 +89,17 @@ ul {
     font-weight:bold;
     font-size:130%
 }
-.navbar-inverse .home:hover,
-.navbar-inverse .home:focus {
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
     color:black;
 }
-.navbar-inverse .navbar-toggle {
-    background-color:white;
-}
-
-.navbar-inverse .navbar-nav>li>a {
+.navbar-default .navbar-nav>li>a {
     color:black;
 }
-.navbar-inverse .navbar-nav>li>a:hover {
+.navbar-default .navbar-nav>li>a:hover {
     color:red;
 }
-.nav>li>a {
-    padding-left:20%;
-}
 .container {
-    background-color: white;
     border:none;
 }
 
