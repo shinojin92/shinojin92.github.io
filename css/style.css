@@ -81,6 +81,9 @@ ul {
     background-color: white;
     border:none;
 }
+.navbar a {
+    color:black;
+}
 .navbar-default .navbar-brand {
     color: red;
     font-weight:bold;
