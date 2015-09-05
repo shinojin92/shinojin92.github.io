@@ -30,8 +30,6 @@ html, body {
     background-image:url('../img/wood.jpg');
     margin-bottom:80px;
     text-align:center;
-    display: table-cell;
-    vertical-align: middle;
 }
 .shadow {
     margin-top:-30px;
