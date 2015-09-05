@@ -78,8 +78,8 @@ ul {
     margin-right:30px;
 }
 .navbar-default {
-    background-color: #ffffff;
-    border-color: #dddddd;
+    background-color: white;
+    border:none;
 }
 .navbar-inverse .home {
     text-decoration:none;
