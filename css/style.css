@@ -77,12 +77,9 @@ ul {
     list-style:none;
     margin-right:30px;
 }
-.navigation {
-    background:white;
-    border:none;
-    position:fixed;
-    z-index:9999;
-    width:100%;
+.navbar-default {
+    background-color: #ffffff;
+    border-color: #dddddd;
 }
 .navbar-inverse .home {
     text-decoration:none;
