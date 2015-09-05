@@ -62,7 +62,7 @@ html, body {
     color:white;
     text-align:left;
     width:700px;
-    margin-left:300px;
+    margin:0 auto;
     padding-top:45px;
     font-weight:100;
     font-size:100%;
@@ -203,8 +203,8 @@ nav li a:hover {
 /* location */
 #map_view {
     margin:0 auto;
-    margin-top:110px;
-    margin-bottom:100px;
+    margin-top:10px;
+    margin-bottom:120px;
 }
 .map-font {
     margin-top:60px;
