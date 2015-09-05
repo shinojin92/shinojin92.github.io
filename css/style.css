@@ -39,10 +39,10 @@ html, body {
     opacity:0.8;
 }
 .my-photo {
-    float:right;
-    margin:0 auto;
+    float:left;
     margin-top:45px;
     margin-right:50px;
+    margin-left:10%;
     height:200px;
     width:200px;
 }
