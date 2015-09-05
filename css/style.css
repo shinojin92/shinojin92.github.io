@@ -78,29 +78,40 @@ ul {
     margin-right:30px;
 }
 .navigation {
-    background-color: white;
-    height:80px;
+    position:fixed;
     z-index:9999;
     width:100%;
-    position:fixed;
 }
-.home {
+.navbar-inverse {
+    background-color: white;
+    border:none;
+}
+.navbar-inverse .navbar-brand {
     text-decoration:none;
- /*   float:left;*/
     color:red;
-    /*padding-top:34px;*/
     padding-left:40px;
     margin-right:20px;
     font-weight:bold;
-    font-size:130%;
+    font-size:130%
 }
-.home:hover,
-.home:focus {
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
     color:black;
 }
+.navbar-inverse .navbar-toggle {
+    background-color:white;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color:black;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+    color:red;
+}
+.nav>li>a {
+    padding-left:20%;
+}
 
-
-/* language skills */
+    /* language skills */
 .skills {
     height:600px;
     letter-spacing:0.1px;
