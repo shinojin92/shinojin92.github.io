@@ -82,14 +82,17 @@ ul {
     border:none;
 }
 .navbar a {
-    padding-left:20%;
     color:black;
 }
-.navbar a:hover {
+.nav>li>a:hover, .nav>li>a:focus {
+    background-color: white;
     color:red;
 }
+.nav>li>a {
+    padding-left:20%;
+}
 .navbar .navbar-brand {
-    padding-left:20px;
+    padding-left:10px;
     color:red;
 }
 .navbar .navbar-brand:hover {
