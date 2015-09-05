@@ -39,8 +39,8 @@ html, body {
 }
 .my-photo {
     float:left;
-    margin:0 auto;
-    margin-top:60px;
+    margin-left:25%;
+    margin-top:45px;
     margin-right:50px;
     height:200px;
     width:200px;
