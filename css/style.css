@@ -77,14 +77,12 @@ ul {
     list-style:none;
     margin-right:30px;
 }
-.navigation {
+.navbar-inverse {
+    background:white;
+    border:none;
     position:fixed;
     z-index:9999;
     width:100%;
-}
-.navbar-inverse {
-    background-color: white;
-    border:none;
 }
 .navbar-inverse .navbar-brand {
     text-decoration:none;
@@ -109,6 +107,10 @@ ul {
 }
 .nav>li>a {
     padding-left:20%;
+}
+.container {
+    background-color: white;
+    border:none;
 }
 
     /* language skills */
