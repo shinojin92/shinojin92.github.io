@@ -1,5 +1,4 @@
 
-
 @font-face {
     font-family: 'nanumbarungothicregular';
     src: url('../fonts/nanumbarungothic-webfont.eot');
@@ -19,7 +18,6 @@
 
 html, body {
     font-family:'nanumbarungothicregular';
-    height:100%;
 }
 
 
