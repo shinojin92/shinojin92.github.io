@@ -42,7 +42,7 @@ html, body {
 }
 .my-photo {
     float:left;
-    margin:0 auto; display:block;
+    margin:0 auto;
     margin-top:45px;
     margin-right:50px;
     height:200px;
