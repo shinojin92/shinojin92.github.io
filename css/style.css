@@ -77,14 +77,14 @@ ul {
     list-style:none;
     margin-right:30px;
 }
-.navbar-inverse {
+.navigation {
     background:white;
     border:none;
     position:fixed;
     z-index:9999;
     width:100%;
 }
-.navbar-inverse .navbar-brand {
+.navbar-inverse .home {
     text-decoration:none;
     color:red;
     padding-left:40px;
@@ -92,13 +92,14 @@ ul {
     font-weight:bold;
     font-size:130%
 }
-.navbar-inverse .navbar-brand:hover,
-.navbar-inverse .navbar-brand:focus {
+.navbar-inverse .home:hover,
+.navbar-inverse .home:focus {
     color:black;
 }
 .navbar-inverse .navbar-toggle {
     background-color:white;
 }
+
 .navbar-inverse .navbar-nav>li>a {
     color:black;
 }
