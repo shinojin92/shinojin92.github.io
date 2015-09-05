@@ -39,13 +39,14 @@ html, body {
 }
 .my-photo {
     float:left;
-    margin-top:80px;
-    margin-left:300px;
+    margin:0 auto;
+    margin-top:60px;
     margin-right:50px;
     height:200px;
     width:200px;
 }
-.my-info {
+.my-info
+{
     padding:0 auto;
     padding-top:60px;
     padding-bottom:70px;
