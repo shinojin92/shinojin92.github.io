@@ -55,6 +55,7 @@ html, body {
 }
 .myself-font {
     color:white;
+    margin:0 auto;
     margin-top:40px;
     font-size:120%;
     font-weight: 300;
