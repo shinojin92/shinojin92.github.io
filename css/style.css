@@ -202,8 +202,9 @@ nav li a:hover {
 
 /* location */
 #map_view {
-    margin:100px 25%;
-    margin-top:10px;
+    margin:0 auto;
+    margin-top:110px;
+    margin-bottom:100px;
 }
 .map-font {
     margin-top:60px;
