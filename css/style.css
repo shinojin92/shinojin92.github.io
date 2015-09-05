@@ -47,8 +47,8 @@ html, body {
 }
 .my-info {
     padding-top:80px;
-    padding-left:50px;
     padding-bottom:70px;
+    margin:0 auto;
 }
 .myself-font {
     color:white;
