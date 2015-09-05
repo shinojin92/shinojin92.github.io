@@ -39,7 +39,7 @@ html, body {
     opacity:0.8;
 }
 .my-photo {
-    float:left;
+    float:right;
     margin:0 auto;
     margin-top:45px;
     margin-right:50px;
@@ -55,7 +55,7 @@ html, body {
 }
 .myself-font {
     color:white;
-    margin:0 auto;
+    text-align: left;
     margin-top:40px;
     font-size:120%;
     font-weight: 300;
