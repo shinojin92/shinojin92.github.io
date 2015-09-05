@@ -109,6 +109,7 @@ nav li a:hover {
 .home{
     text-decoration:none;
     float:left;
+    color:red;
     padding-top:34px;
     padding-left:40px;
     margin-right:20px;
@@ -124,8 +125,12 @@ nav li a:hover {
     margin-left:20%;
 }
 .menu-font {
+    width:20%;
     color:black;
     margin-left:20%;
+}
+.menu-font:hover {
+    color:red;
 }
 
 
