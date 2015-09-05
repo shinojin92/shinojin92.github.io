@@ -29,6 +29,7 @@ html, body {
     height:500px;
     background-image:url('../img/wood.jpg');
     margin-bottom:80px;
+    text-align:center;
 }
 .shadow {
     margin-top:-30px;
