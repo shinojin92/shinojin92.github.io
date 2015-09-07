@@ -46,4 +46,4 @@ function initialize() {
             }
         })(marker, i));
     }
-}
+};

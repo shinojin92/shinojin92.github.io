@@ -4,13 +4,10 @@
     <meta charset="euc-kr">
     <title>shinhojin's resume</title>
 
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <link href="css/style.css" rel="stylesheet">
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-
 
     <!-- google maps -->
     <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
@@ -20,12 +17,8 @@
 <body onload="initialize()">
 
 <!-- scroll setting -->
-    <!-- jQuery -->
-    <script src="./js/jquery.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="./js/bootstrap.min.js"></script>
-    <script src="./js/app.js"></script>
 
+    <script src="./js/app.js"></script>
 
     <!-- header -->
     <div class="header-bar" id="head">
@@ -57,43 +50,26 @@
     </div>
 
 
-
-
-    <div class="navbar navbar-fixed-top navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="#head">HOME</a>
-                <!-- 브라우저가 좁아졌을때 나오는 버튼(클릭시 메뉴출력) -->
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-            <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav">
-                    <li><a href="#skill">language skills</a></li>
-                    <li><a href="#exp">experience</a></li>
-                    <li><a href="#location">location</a></li>
-                    <li><a href="#foot">contacts</a></li>
-                </ul>
-            </div>
+<nav class="navbar navbar-fixed-top navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand home" href="#head">HOME</a>
         </div>
-    </div>
-
-<!-- navigation menu bar
-    <nav class="navigation">
-        <ul>
-            <p class="home"><a href="#head">HOME</a></p>
-            <div class="menu-margin">
-                <li><a href="#skill">language skills</a></li>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#skill">skills</a></li>
                 <li><a href="#exp">experience</a></li>
                 <li><a href="#location">location</a></li>
                 <li><a href="#foot">contacts</a></li>
-            </div>
-        </ul>
-    </nav>
--->
+            </ul>
+        </div>
+    </div>
+</nav>
 
 
     <!-- skills -->
@@ -102,8 +78,7 @@
             SKILL
             <p class="explain">: 전공필수과목 이외에 들었던 전공과목들에 대한 스킬</p>
         </p>
-
-        <div class="skills">
+        <div class="skills text-center">
             <div class="division">
                 <img class="skill-img" src="img/subject/algo.png"><br>
                 <p class="skill-font">알고리즘</p>
@@ -139,11 +114,13 @@
                 <p class="skill-font">컴퓨터시스템 기초설계</p>
                 <p class="skill-font2">
                     github를 연동하여 간단한 블로그를 제작해보았다. 우리 팀(4명)은 여행지를 추천하는 블로그를 제작해보았는데 경기도, 강원도, 전라도, 충청도를 나누어 각 여행지의 특색이나 맛집 등에 대해 소개하는 markdown페이지를 제작하였다.<br><br>
-                    <a href="http://shinojin.github.io" style="text-weight:bold">Blog로 이동</a>
+                    <a href="http://shinojin.github.io" class="hyperlink-blog">Blog로 이동</a>
                 </p>
             </div>
         </div>
     </div>
+
+    <div class="margin"></div>
 
 
     <!-- experience -->
@@ -154,49 +131,51 @@
         <div class="experience">
 
             <div class="exp-section">
-                <img class="exp-box" src="img/frame.png">
-                <p class="exp-period"><br>2013.02 ~<br>　2014.01</p>
-                <p class="exp-content1">(미국)해외 인턴쉽 프로그램 + 어학연수  /  전북대학교<br></p>
-                <p class="exp-content2">
-                    6개월의 어학연수 후, 학교 프로그램을 통해 인턴쉽을 경험하였다. 내가 머물던 곳은 Utah주의 Provo라는
-                    도시였는데, 운이 좋게도 Provo가 소프트웨어 산업 중심으로 발달된 도시였다. 그래서인지 Provo에 있는
-                    대학교들의 컴퓨터공학부가 유명했는데, 나는 이것을 좋은 기회라고 생각하여 남는 오후 시간을 통해
-                    Utah Valley University(UVU)에 찾아가 Java수업(Projessor:Durney)을 청강하기도 했다.
-                    인턴쉽은 Write Express라는 작은 소프트웨어 회사에서 보조 프로그래머로 일하였다. 내가 맡은 업무는
-                    UI 설계하는 것을 돕고 간단한 html과 css를 수정하는 일이었는데, 겨우 2학년을 마친 때라
-                    모르는 것도 어려운 것도 많았다. 하지만 지금에서는 그 때가 영어 실력도 늘고 사회에서 실무 경험도
-                    쌓아본, 가장 값지고 남는 것도 많던 한해였다.
-                </p>
+                <img class="exp-box" src="img/certificate/usa2.png">
+                <div class="exp-margin">
+                    <p class="exp-content1">(미국)해외 인턴쉽 프로그램 + 어학연수  /  전북대학교<br></p>
+                    <p class="exp-content2">
+                        6개월의 어학연수 후, 학교 프로그램을 통해 인턴쉽을 경험하였다. 내가 머물던 곳은 Utah주의 Provo라는
+                        도시였는데, 운이 좋게도 Provo가 소프트웨어 산업 중심으로 발달된 도시였다. 그래서인지 Provo에 있는
+                        대학교들의 컴퓨터공학부가 유명했는데, 나는 이것을 좋은 기회라고 생각하여 남는 오후 간을 통해
+                        Utah Valley University(UVU)에 찾아가 Java수업(Projessor:Durney)을 청강하기도 했다.
+                        인턴쉽은 Write Express라는 작은 소프트웨어 회사에서 보조 프로그래머로 일하였다. 내가 맡은 업무는
+                        UI 설계하는 것을 돕고 간단한 html과 css를 수정하는 일이었는데, 겨우 2학년을 마친 때라
+                        모르는 것도 어려운 것도 많았다. 하지만 지금에서는 그 때가 영어 실력도 늘고 사회에서 실무 경험도
+                        쌓아본, 가장 값지고 남는 것도 많던 한해였다.
+                    </p>
+                </div>
             </div>
 
             <div class="exp-section">
                 <img class="exp-box" src="img/certificate/cambodia.png">
-                <p class="exp-period">　<br>　</p>
-                <p class="exp-content1">(캄보디아)해외 봉사  /  한국기술교육대학교<br></p>
-                <p class="exp-content2">
-                    3학년 때, 우리학교 컴퓨터공학부에 'IT 융합 사업단'이 생겼다. IT와 관련된 여러 프로그램이나 프로젝트
-                    등 다양한 좋은 경험을 제공해주는 사업단인데, 이 때 내가 편입을 했기 때문에 정말 운이 좋게도
-                    여러 프로그램에 참여할 수 있는 좋은 기회를 얻었다. 그 중 하나가 '해외봉사' 프로그램이다.
-                    캄보디아의 프놈펜에 있는 '국립왕실대학교'의 학생들에게 포토샵 교육을 하는 봉사활동이었다.
-                    교육을 해야하는 것이기 때문에 캄보디아에 가기 전에도 학교에서 포토샵 강의를 들었는데, 이 때 공부했던
-                    것이 지금 프론트엔드를 개발하는 데에도 많은 도움이 된다.
-                </p>
+                <div class="exp-margin">
+                    <p class="exp-content1">(캄보디아)해외 봉사  /  한국기술교육대학교<br></p>
+                    <p class="exp-content2">
+                        3학년 때, 우리학교 컴퓨터공학부에 'IT 융합 사업단'이 생겼다. IT와 관련된 여러 프로그램이나 프로젝트
+                        등 다양한 좋은 경험을 제공해주는 사업단인데, 이 때 내가 편입을 했기 때문에 정말 운이 좋게도
+                        여러 프로그램에 참여할 수 있는 좋은 기회를 얻었다. 그 중 하나가 '해외봉사' 프로그램이다.
+                        캄보디아의 프놈펜에 있는 '국립왕실대학교'의 학생들에게 포토샵 교육을 하는 봉사활동이었다.
+                        교육을 해야하는 것이기 때문에 캄보디아에 가기 전에도 학교에서 포토샵 강의를 들었는데, 이 때 공부했던
+                        것이 지금 프론트엔드를 개발하는 데에도 많은 도움이 된다.
+                    </p>
+                </div>
             </div>
 
             <div class="exp-section">
                 <img class="exp-box" src="img/certificate/usa.png">
-                <p class="exp-period">　<br>　</p>
-                <p class="exp-content1">(미국)해외 소프트웨어 연수  /  한국기술교육대학교<br></p>
-                <p class="exp-content2">
-                    이 프로그램은 컴퓨터공학부의 'IT 융합 사업단'의 지원으로 약 3주간 미국으로 연수를 다녀오는 것이었다.
-                    University of California, Riverside(UCR)에서 'Cyber security'를 주제로 한 강의를 들었다.
-                    4학년 1학기를 마치고 중요한 시기의 방학이었지만, 미국에 가는 것도 값진 경험인데다 그 곳의 학교에서
-                    전공 강의까지 들을 수 있는 것이 좋은 기회라고 생각하여 지원했다.
-                    비록 내가 전공으로 공부하려는 분야가 보안은 아니지만, 사회적으로도 이슈가 되는 '보안'문제, 특히
-                    개인정보보호에 대한 중요성에 대해 알게 되었다.
-                </p>
+                <div class="exp-margin">
+                    <p class="exp-content1">(미국)해외 소프트웨어 연수  /  한국기술교육대학교<br></p>
+                    <p class="exp-content2">
+                        이 프로그램은 컴퓨터공학부의 'IT 융합 사업단'의 지원으로 약 3주간 미국으로 연수를 다녀오는 것이었다.
+                        University of California, Riverside(UCR)에서 'Cyber security'를 주제로 한 강의를 들었다.
+                        4학년 1학기를 마치고 중요한 시기의 방학이었지만, 미국에 가는 것도 값진 경험인데다 그 곳의 학교에서
+                        전공 강의까지 들을 수 있는 것이 좋은 기회라고 생각하여 지원했다.
+                        비록 내가 전공으로 공부하려는 분야가 보안은 아니지만, 사회적으로도 이슈가 되는 '보안'문제, 특히
+                        개인정보보호에 대한 중요성에 대해 알게 되었다.
+                    </p>
+                </div>
             </div>
-
         </div>
 
     </div>
@@ -212,6 +191,10 @@
         </div>
         <div id="map_view" style="width:700px; height:400px">
         </div>
+    </div>
+
+    <div class="up-scroll text-right">
+        <a href="#head">위로<br>▲</a>
     </div>
 
     <!-- footer bar -->
@@ -241,8 +224,5 @@
     </div>
 
 
-    <a href="#head">
-        <button class="footer">위로<br>▲</button>
-    </a>
 </body>
 </html>

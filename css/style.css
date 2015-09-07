@@ -18,24 +18,35 @@
 
 html, body {
     font-family:'nanumbarungothicregular';
+    width: 100%;
+    height:100%;
 }
 
 
 /* header */
+#head:after {
+    content:"";
+    display:block;
+    clear:both;
+
+}
 .header-bar {
     padding-top:80px;
     width:100%;
-    height:580px;
     background-image:url('../img/wood.jpg');
+    padding-bottom:50px;
     margin-bottom:80px;
     text-align:center;
 }
 .shadow {
-    margin-top:-30px;
     width:100%;
-    height:170px;
     background-color: #0f0b07;
     opacity:0.8;
+}
+.shadow:after {
+    content:"";
+    display:block;
+    clear:both;
 }
 .my-photo {
     float:left;
@@ -66,49 +77,25 @@ html, body {
     text-align:left;
     width:700px;
     margin:0 auto;
-    padding-top:28px;
+    padding:25px 25px;
+    padding-bottom:10px;
     font-weight:100;
     font-size:98%;
 }
 
-/* navigation */
-
-ul {
-    list-style:none;
-    margin-right:30px;
-}
-.navigation {
-    background-color: white;
-    border:none;
-}
-.navbar a {
-    color:black;
-}
-.nav>li>a:hover, .nav>li>a:focus {
-    background-color: white;
-    color:red;
-}
-.nav>li>a {
-    padding-left:20%;
-}
-.navbar .navbar-brand {
-    padding-left:10px;
-    color:red;
-}
-.navbar .navbar-brand:hover {
-    color: black;
-}
-
     /* language skills */
+#skill:after{
+    content:"";
+    display:block;
+    clear:both;
+}
 .skills {
-    height:600px;
     letter-spacing:0.1px;
     line-height:130%;
 }
 
 .skill-img {
     margin-top:10px;
-    margin-left:50px;
     width:170px;
     height:170px;
 }
@@ -117,7 +104,6 @@ ul {
     color:black;
     font-size:100%;
     font-weight:bold;
-    text-align:center;
     margin:25px 0;
 }
 .skill-font2 {
@@ -133,48 +119,43 @@ ul {
 
 
 /* experience */
+#exp:after{
+    content:"";
+    display:block;
+    clear:both;
+   padding-bottom:20px;
+}
 .experience {
     background-image:url('../img/exp.png');
     width:100%;
-    height:580px;
     margin-bottom:80px;
     letter-spacing:0.1px;
     line-height:130%;
 }
 .exp-box {
+    width: 150px;
+    height: 120px;
     margin-left:100px;
 }
-.exp-period {
-    margin-top:-95px;
-    margin-bottom:50px;
-    margin-left: 122px;
-    color:black;
-    font-size:130%;
-    font-weight:bold;
-}
-.exp-img {
-    margin-top:-140px;
-    margin-left:-142px;
-}
 .exp-content1 {
-    margin-top:-120px;
-    margin-left:300px;
+    padding-bottom:10px;
     color:#0eb4b6;
     font-size:110%;
     font-weight:bold;
 }
 .exp-content2 {
-    padding-top:10px;
-    margin-left:300px;
-    margin-bottom:10px;
     color:black;
     font-size :90%;
-    width:80%;
+}
+.exp-margin {
+    margin-top:-120px;
+    margin-left:300px;
+    margin-right:50px;
 }
 .exp-section {
-    padding-top:35px;
-    height:150px;
-    padding-right:150px;
+    padding-top: 20px;
+    padding-bottom:25px;
+    padding-right:50px;
 }
 
 /* location */
@@ -233,27 +214,28 @@ ul {
 }
 
 /* scroll */
-.footer {
-    position:fixed;
-    left:93%;
-    top:80%;
-    background-color: transparent;
-    text-decoration: none;
+.up-scroll {
     color:#bf0202;
-    text-shadow: 1px 1px 1px #eaeaea;
+    text-shadow: 0.5px 0.5px 0.5px #eaeaea;
     font-size:90%;
-    width:100px;
-    height:40px;
-    border:none;
+    margin-right:20px;
+    text-align:center;
+    position:fixed;
+    bottom:30px;
+    right:10px;
 }
-.footer:hover {
+.up-scroll a{
+    color:#bf0202;
+    text-decoration: none;
+}
+.up-scroll a:hover {
     color: #5d5d5d;
     border:none;
 }
 
 /* subtitle */
 .subtitle {
-    padding-top:85px;
+    padding-top:50px;
     text-align:center;
     color:#5d5d5d;
     font-size:450%;
@@ -276,6 +258,7 @@ ul {
 .portfolio {
     margin:10px;
     width:100%;
+    height: 100%;
 }
 .portfolio_link {
     text-decoration:none;
@@ -283,4 +266,104 @@ ul {
 }
 .portfolio_link:hover {
     color:#c8c8c8;
+}
+
+
+/* navigation */
+
+.navigation {
+    background-color: white;
+    border-bottom:1px solid #eaeaea;
+    z-index:9999;
+    height:50px;
+}
+.navbar .navbar-brand {
+
+    color:red;
+    font-weight: bold;
+    font-size:140%;
+}
+.navbar .navbar-brand:hover {
+    color:black;
+}
+.navbar a {
+    padding-left:40px;
+    color:black;
+    font-size:110%;
+}
+.nav>li>a:hover, .nav>li>a:focus {
+    background-color: white;
+    color:black;
+}
+.icon-bar {
+    background-color:#777;
+}
+#myNavbar {
+    background-color: white;
+    border-bottom: 1px solid #eaeaea;
+}
+.navbar-right{
+    margin-right:40px;
+}
+
+
+/* ¹ÝÀÀÇü */
+@media (max-width: 768px) {
+    .nav>li>a {
+        padding: 10px 40px;
+    }
+    .self-font{
+        width:100%;
+    }
+}
+
+@media (max-width: 1120px) {
+    .division {
+        width:100%;
+        clear:both;
+    }
+    .skill-font,
+    .skill-font2 {
+        width:100%;
+        margin:15px 0;
+        padding:0 40px;
+    }
+    .skill-font2 {
+        padding-bottom:30px;
+    }
+    .skill-img {
+        margin:0;
+        width:200px;
+        height:200px;
+    }
+    .experience {
+        text-align:center;
+        background-size: cover;
+    }
+    .exp-box {
+        width: 200px;
+        height:160px;
+        margin-left:0;
+    }
+    .exp-margin {
+        margin:0;
+        text-align: center;
+    }
+    .exp-content1 {
+        padding-top:20px;
+    }
+    .exp-content2 {
+        padding:0 40px;
+    }
+    .exp-section {
+        padding-left:20px;
+    }
+    .hyperlink-blog {
+        text-weight:bold;
+        padding-bottom:100px;
+    }
+}
+
+.margin {
+    height:100px;
 }
