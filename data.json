@@ -1,7 +1,7 @@
 ﻿[
     { "subject": "알고리즘", "contents": "정렬(selection, insertion, quick, bubble, merge, heap)부터 시작하여, 시간복잡도 계산, 신장트리(prim, kruskal), 탐욕적 알고리즘(knapsack)을 공부했으며 직접 구현해보았다. 텀프로젝트로는 'Poker Squares'라는 게임을 구현해보았다.", "img": "./img/poker_squares.png" },
     { "subject": "컴퓨터비젼 및 실습", "contents": "C언어를 이용하여 실습했던 과목이었다. 컴퓨터비젼 과목은 '현실의 어떤 영상에서 장면이나 특징들을 이해하는 컴퓨터를 프로그램하는 것'을 목적으로 한다. Edge detection, image smoothing, line fitting, region_growing 등 여러 기법들에 대해 배우고 구현해 보았다. edge detection이나 region growing같은 경우에는 현재 위치를 참고하여 해결하기 때문에 주로 recursive function을 사용하였고, line fitting같은 경우에는 좌표를 저장하기 위해 큐를 주로 사용하였다." },
-    { "subject": "시스템프로그래밍", "contents": "ubuntu에 linux를 설치하여 사용하였다. 간단한 명령어 사용법과 데이터 및 파일 전송에 대해 주로 공부하였고, 기말 텀프로젝트에서는 테트리스 게임을 구현하였는데 C++을 이용하여 게임을 제작하고 점수나 사용자에 대한 정보는 DB(Mysql을 사용함)에 넣어 서버를 구축하였다.", "img": "./img/sys.png"},
+    { "subject": "시스템프로그래밍", "contents": "linux 배포판 중 ubuntu를 사용하였다. 간단한 명령어 사용법과 데이터 및 파일 전송에 대해 주로 공부하였고, 기말 텀프로젝트에서는 테트리스 게임을 구현하였는데 C++을 이용하여 게임을 제작하고 점수나 사용자에 대한 정보는 DB(Mysql을 사용함)에 넣어 서버를 구축하였다.", "img": "./img/sys.png"},
     { "subject": "가상현실 및 실습", "contents": "unity 3D 프로그램을 이용하였다. 오브젝트들을 만들고 동작이나 다른 효과를 제어하기 위해서는 C#과 Javascript 언어를 이용하였다. 텀프로젝트로 간단한 비행기 게임을 만들어보았다. 키패드를 이용하여 비행기를 조작하는 게임이고, 좀 더 생동감을 주기 위해 효과음도 넣었다. ", "img": "./img/vr.png" },
     { "subject": "컴퓨터시스템기초설계", "contents": "github를 연동하여 간단한 블로그를 제작해보았다. 우리 팀(4명)은 여행지를 추천하는 블로그를 제작해보았는데 경기도, 강원도, 전라도, 충청도를 나누어 각 여행지의 특색이나 맛집 등에 대해 소개하는 markdown페이지를 제작하였다. "}
 ]
